@@ -46,7 +46,7 @@ document.querySelector('.check').addEventListener
     }
   });
 
-/// Challenge
+/// Botão reset
 document.querySelector('.again').addEventListener('click', function () {
   score = 20;
   secretNumber = Math.trunc(Math.random() * 20) + 1;
